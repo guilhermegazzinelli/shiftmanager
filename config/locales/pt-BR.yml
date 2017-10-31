@@ -20,14 +20,15 @@ pt-BR:
         other: Colaboradores
       shift:
         one: Turno
-        olher: Turnos
+        other: Turnos
       regional:
         one: Regional
         other: Regionais      
     attributes:
       client:
         name: "Nome"
-        company_name: "Nome da Empresa"
+      operation:
+
 
       
   views:
