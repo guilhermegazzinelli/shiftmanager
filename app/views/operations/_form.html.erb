@@ -1,0 +1,57 @@
+<%= form_with(model: operation, local: true) do |form| %>
+  <% if operation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(operation.errors.count, "error") %> prohibited this operation from being saved:</h2>
+
+      <ul>
+      <% operation.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :operation_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :addres %>
+    <%= form.text_field :addres, id: :operation_addres %>
+  </div>
+
+  <div class="field">
+    <%= form.label :coordinator_name %>
+    <%= form.text_field :coordinator_name, id: :operation_coordinator_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :manager_name %>
+    <%= form.text_field :manager_name, id: :operation_manager_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :manager_contact %>
+    <%= form.text_field :manager_contact, id: :operation_manager_contact %>
+  </div>
+
+  <div class="field">
+    <%= form.label :coordinator_contact %>
+    <%= form.text_field :coordinator_contact, id: :operation_coordinator_contact %>
+  </div>
+
+  <div class="field">
+    <%= form.label :manager_email %>
+    <%= form.text_field :manager_email, id: :operation_manager_email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :coordinator_email %>
+    <%= form.text_field :coordinator_email, id: :operation_coordinator_email %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

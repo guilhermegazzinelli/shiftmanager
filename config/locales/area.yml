@@ -1,0 +1,8 @@
+en:
+  enumerations:
+    area:
+      FTTH: "Ftth"
+      Wireless: "Wireless"
+      Infra: "Infra"
+      Backbone: "Backbone"
+      Exteral_network_analyst: "Exteral_network_analyst"

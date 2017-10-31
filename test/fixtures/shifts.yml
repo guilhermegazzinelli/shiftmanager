@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  operation: one
+  begin_shift: 2017-10-27 04:01:35
+  end_shift: 2017-10-27 04:01:35
+  colaborator: MyString
+  contact: MyString
+  area: 1
+
+two:
+  operation: two
+  begin_shift: 2017-10-27 04:01:35
+  end_shift: 2017-10-27 04:01:35
+  colaborator: MyString
+  contact: MyString
+  area: 1

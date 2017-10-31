@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Shifts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Begin shift</th>
+      <th>End shift</th>
+      <th>Colaborator</th>
+      <th>Contact</th>
+      <th>Area</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @shifts.each do |shift| %>
+      <tr>
+        <td><%= shift.operation %></td>
+        <td><%= shift.begin_shift %></td>
+        <td><%= shift.end_shift %></td>
+        <td><%= shift.colaborator %></td>
+        <td><%= shift.contact %></td>
+        <td><%= shift.area %></td>
+        <td><%= link_to 'Show', shift %></td>
+        <td><%= link_to 'Edit', edit_shift_path(shift) %></td>
+        <td><%= link_to 'Destroy', shift, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Shift', new_shift_path %>

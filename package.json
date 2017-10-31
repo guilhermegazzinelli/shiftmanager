@@ -1,0 +1,8 @@
+{
+  "name": "shiftManager",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^1.4.9"
+  }
+}

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  operation: one
+  name: MyString
+  company_number: MyString
+  personal_number: MyString
+  email: MyString
+  area: 1
+
+two:
+  operation: two
+  name: MyString
+  company_number: MyString
+  personal_number: MyString
+  email: MyString
+  area: 1

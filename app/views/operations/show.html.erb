@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @operation.name %>
+</p>
+
+<p>
+  <strong>Addres:</strong>
+  <%= @operation.addres %>
+</p>
+
+<p>
+  <strong>Coordinator name:</strong>
+  <%= @operation.coordinator_name %>
+</p>
+
+<p>
+  <strong>Manager name:</strong>
+  <%= @operation.manager_name %>
+</p>
+
+<p>
+  <strong>Manager contact:</strong>
+  <%= @operation.manager_contact %>
+</p>
+
+<p>
+  <strong>Coordinator contact:</strong>
+  <%= @operation.coordinator_contact %>
+</p>
+
+<p>
+  <strong>Manager email:</strong>
+  <%= @operation.manager_email %>
+</p>
+
+<p>
+  <strong>Coordinator email:</strong>
+  <%= @operation.coordinator_email %>
+</p>
+
+<%= link_to 'Edit', edit_operation_path(@operation) %> |
+<%= link_to 'Back', operations_path %>
