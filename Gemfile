@@ -36,6 +36,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'rails_admin', '~> 1.2'
 gem 'devise'
+gem 'rails_admin_rollincode', '~> 1.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

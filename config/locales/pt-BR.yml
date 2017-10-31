@@ -9,10 +9,23 @@ pt-BR:
       client:
         one: Cliente
         other: Clientes
+      operation:
+        one: Operação
+        other: Operações
+      user:
+        one: Usurário
+        other: Usuários
+      colaborator:
+        one: Colaborador
+        other: Colaboradores
+      
+      
     attributes:
       client:
         name: "Nome"
         company_name: "Nome da Empresa"
+
+      
   views:
   admin:
     home:
