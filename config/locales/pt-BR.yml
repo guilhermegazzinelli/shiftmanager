@@ -18,8 +18,12 @@ pt-BR:
       colaborator:
         one: Colaborador
         other: Colaboradores
-      
-      
+      shift:
+        one: Turno
+        olher: Turnos
+      regional:
+        one: Regional
+        other: Regionais      
     attributes:
       client:
         name: "Nome"
