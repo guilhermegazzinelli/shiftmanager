@@ -20,8 +20,8 @@ gem 'cancancan'
 
 #Simplify enum generation
 gem 'enumerate_it'
-
-
+gem 'toastr-rails'
+gem 'remotipart', github: 'mshibuya/remotipart'
 
 #gem 'RedCloth'
 #gem 'will_paginate', '~> 3.1.0'
